@@ -1,0 +1,242 @@
+body {
+  background-color: #f1f3f9;
+}
+
+.hind-font {
+  font-family: "Hind", sans-serif;
+}
+
+header {
+  background-image: url("/Images/2019_01_30_64301_1548822542._large@2x.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 655px;
+  opacity: 0.55;
+}
+
+span {
+  color: #ffc200;
+}
+
+h1 {
+  color: #ffffff;
+  margin-top: 20px;
+  margin-bottom: -25px;
+  font-size: 26px;
+}
+
+.name {
+  padding-top: 40px;
+  padding-left: 60px;
+  margin-bottom: 40px;
+}
+
+.contact:hover {
+  background: #ffc200;
+  color: #012241;
+}
+
+button:hover {
+  background: #ffffff;
+  color: #012241;
+  opacity: 70%;
+}
+
+.button-1 {
+  background-color: #ffc200;
+  color: #012241;
+  width: 126px;
+  height: 40px;
+  border-radius: 30px;
+  margin-top: -12px;
+  cursor: pointer;
+}
+
+.contact {
+  border: 2px solid #ffc200;
+  border-radius: 30px;
+  color: #ffc200;
+  width: 164px;
+  height: 40px;
+  text-align: center;
+  padding-top: 10px;
+  margin-top: -10px;
+}
+
+.middle {
+  background-color: #f1f3f9;
+  justify-content: space-between;
+}
+
+.rectangle {
+  width: 96px;
+  height: 162px;
+  border: 7px solid #ffc200;
+  margin-left: -35px;
+}
+
+.container {
+  margin-top: 73px;
+  overflow-x: hidden;
+}
+
+.about {
+  color: #ffc200;
+  margin-top: -160px;
+  font-size: 22px;
+}
+
+.miss {
+  color: #012241;
+  letter-spacing: 2.06px;
+  font-size: 30px;
+  margin-top: -130px;
+}
+
+.others {
+  color: #012241;
+}
+
+.locate {
+  color: #012241;
+}
+
+.data {
+  color: #707070;
+  font-size: 15px;
+}
+
+.dance {
+  width: 617px;
+  height: 457.44px;
+  margin-right: 66px;
+  padding-right: 66px;
+  margin-top: -130px;
+}
+
+.contestants {
+  color: #012241;
+  letter-spacing: 1.65px;
+  text-align: center;
+  font-size: 28px;
+}
+
+.pageant {
+  justify-content: space-between;
+}
+
+.text-block {
+  position: absolute;
+  color: #ffffff;
+  background-color: #012241;
+  width: 288px;
+  height: 56px;
+  text-align: center;
+}
+
+.contact-info-pics {
+  border: 1px solid #ffffff;
+  background-color: #f1f3f9;
+}
+
+a {
+  color: #707070;
+}
+
+.right {
+  background-color: #012241;
+  color: #ffffff;
+  height: 61px;
+  font-size: 18px;
+}
+
+.info {
+  height: 92px;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    height: 350px;
+  }
+
+  .button-1 {
+    margin-top: -12px;
+    width: 70px;
+    margin-right: 15px;
+    font-size: 10px;
+    height: 28px;
+  }
+
+  .contact {
+    font-size: 12px;
+    height: 30px;
+    padding-top: 6px;
+  }
+
+  .hi {
+    flex-direction: column;
+  }
+
+  .col-re {
+    flex-direction: column-reverse;
+  }
+
+  .foot-col {
+    flex-direction: column;
+  }
+
+  .name {
+    padding-top: 40px;
+    padding-left: 20px;
+    margin-bottom: 5px;
+  }
+
+  .dance {
+    height: 190px;
+    margin-right: 0px;
+    padding-right: 0px;
+    margin-top: 15px;
+  }
+
+  .miss {
+    font-size: 14px;
+    margin-top: -245px;
+    margin-bottom: 240px;
+  }
+
+  .rectangle {
+    width: 70px;
+    height: 85px;
+    border: 7px solid #ffc200;
+    margin-left: -40px;
+  }
+
+  .about {
+    color: #ffc200;
+    margin-top: -515px;
+    margin-bottom: 330px;
+    font-size: 14px;
+  }
+
+  .head1 {
+    font-size: 18px;
+    padding-left: 20px;
+    text-align: left;
+    width: 70%;
+  }
+
+  .contestants {
+    letter-spacing: 0.5px;
+    font-size: 18px;
+  }
+
+  .pageant {
+   align-items: center;
+   justify-content: center;
+  }
+
+  .text-block {
+    height: 40px;
+  }
+}

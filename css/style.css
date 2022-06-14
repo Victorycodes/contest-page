@@ -1,0 +1,372 @@
+body {
+  background-color: #f1f3f9;
+}
+
+.hind-font {
+  font-family: "Hind", sans-serif;
+}
+
+header {
+  background-image: url("/Images/pexels-cottonbro-9511804.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 655px;
+}
+
+span {
+  color: #ffc200;
+  margin: 0;
+}
+
+h1 {
+  color: #ffffff;
+}
+
+.name {
+  padding-top: 49px;
+  padding-left: 60px;
+}
+
+.button {
+  background-color: hsl(46, 100%, 50%);
+  color: #012241;
+  height: 40px;
+  margin-top: 40px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 14px;
+  opacity: 1;
+  margin-right: 25px;
+  width: 96px;
+}
+
+button:hover {
+  background: #ffffff;
+  color: #012241;
+  opacity: 70%;
+}
+
+#contest {
+  height: 50px;
+  width: 480px;
+  background-color: #ffffff;
+  color: #012241;
+  background: transparent;
+  border-radius: 10px;
+  cursor: pointer;
+  outline-color: transparent;
+}
+
+#date {
+  outline-color: transparent;
+}
+
+.dif {
+  background-color: #f1f3f9;
+  width: 159px;
+  height: 54px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  border-style: solid;
+  background-color: #012241;
+  height: 106px;
+  width: 843px;
+  border-radius: 10px;
+  margin: -53px;
+  font-size: 14px;
+}
+
+.grid-container {
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+  background-color: #012241;
+  color: #f1f3f9;
+  padding: 10px;
+  width: 13.5px;
+  height: 13.5px;
+  margin-top: 20px;
+  margin-bottom: 23.5px;
+  border-radius: 2px;
+}
+
+.Info {
+  width: 325px;
+  height: 317px;
+  margin-left: 166px;
+  padding-top: 60px;
+  margin-top: 60px;
+  border-radius: 5px;
+  padding-left: 15px;
+}
+
+.sec-Info {
+  width: 325px;
+  height: 317px;
+  padding-top: 60px;
+  margin-top: 60px;
+  border-radius: 5px;
+  padding-left: 16px;
+}
+
+.last-info {
+  width: 325px;
+  height: 317px;
+  padding-top: 60px;
+  margin-top: 60px;
+  border-radius: 5px;
+  margin-right: 166px;
+  padding-left: 16px;
+}
+
+.year {
+  color: #707070;
+}
+
+.dropbtn {
+  background-color: #04aa6d;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  color: #ffc200;
+  background-color: #ffffff;
+  z-index: 1;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding-bottom: 12px;
+}
+
+.dropdown-content a:hover {
+  background-color: #ffffff;
+}
+
+.dropdown:hover .dropdown-content {
+  display: flex;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+.vote {
+  color: #012241;
+}
+
+.button2 {
+  background-color: #ffc200;
+  color: #012241;
+  border-radius: 10px;
+  margin-top: 75px;
+  padding: 13px 28px 13px 29px;
+  margin-bottom: 80px;
+}
+
+.category {
+  background-image: url("/Images/AT-banner2-2@2x.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 372px;
+}
+
+.container {
+  position: relative;
+}
+
+.text-block {
+  position: absolute;
+  bottom: -70px;
+  left: 33px;
+  background-color: #ffffff;
+  color: #012241;
+  padding-left: 140px;
+  width: 319px;
+  height: 51px;
+}
+
+.foot {
+  background-color: #012241;
+}
+
+.finder2 {
+  padding: 18px 14px 17px 18px;
+  border-radius: 50px;
+  margin-top: -40px;
+}
+
+.foot-sec-1 {
+  background-color: #f1f3f9;
+}
+
+h3 {
+  color: #012241;
+}
+
+.foot-p {
+  color: #707070;
+  text-align: center;
+  padding-left: 300px;
+  padding-right: 300px;
+}
+
+.rule {
+  margin-top: 10.5px;
+  margin-bottom:  32.5px;
+  border: 2px solid #012241;
+  width: 120px;
+}
+
+.p {
+  color: #012241;
+}
+
+.right {
+  background-color: #012241;
+  color: #ffffff;
+  height: 60px;
+  padding-top: 18px;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    background-image: url("/Images/pexels-cottonbro-9511804.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+  }
+
+  .box {
+    display: grid;
+    flex-direction: column;
+    border-style: solid;
+    background-color: #012241;
+    height: 106px;
+    width: 360px;
+    padding-right: 0px;
+  }
+
+  .foot-p {
+    color: #707070;
+    text-align: center;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  #contest {
+    height: 50px;
+    width: 255px;
+    margin-left: 0px;
+    margin-top: 2px;
+    font-size: 13px;
+  }
+
+  .Info {
+    margin-left: 15px;
+    margin-top: 0px;
+  }
+
+  .sec-Info {
+    margin-top: -10px;
+    margin-left: 15px;
+  }
+
+  .last-info {
+    margin-top: -10px;
+    margin-left: 15px;
+  }
+
+  .container {
+    margin-left: -34px;
+    position: relative;
+  }
+
+  #date {
+    outline-color: transparent;
+    padding-top: 7px;
+    margin-top: -25px;
+    margin-right: 80px;
+    font-size: 13px;
+  }
+
+  .dif {
+    width: 115px;
+    height: 50px;
+  }
+
+  .head1 {
+    font-size: 18px;
+    padding-left: 20px;
+    text-align: left;
+    width: 70%;
+  }
+
+  .hi2 {
+    width: 50%;
+    flex-direction: column;
+  }
+
+  .rule {
+    width: 25%;
+  }
+
+  .name {
+    padding-left: 20px;
+  }
+
+  .button {
+    width: 70px;
+    margin-right: 15px;
+    font-size: 10px;
+    height: 28px;
+  }
+
+  .grid-container {
+    padding: 6px;
+    width: 11.5px;
+    height: 0.5px;
+    margin-top: 10px;
+    margin-bottom: 0.5px;
+    margin-right: 240px;
+  }
+
+  .category {
+    height: 670px;
+  }
+
+  .button2 {
+    margin-top: 50px;
+    padding: 8px 10px 8px 10px;
+    margin-bottom: 50px;
+    font-size: 10px;
+  }
+
+  .text-block {
+    padding-left: 180px;
+    width: 321px;
+    height: 40px;
+    left: 31px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+
+  .hi {
+    flex-direction: column;
+  }
+}

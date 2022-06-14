@@ -1,0 +1,85 @@
+body {
+  background-color: #f1f3f9;
+}
+
+.hind-font {
+  font-family: "Hind", sans-serif;
+}
+
+.name {
+  padding-top: 40px;
+  padding-left: 60px;
+  margin-bottom: 40px;
+}
+
+button:hover{
+  background: #ffffff;
+  color: #012241;
+  opacity: 70%;
+}
+
+span {
+  color: #ffc200;
+}
+
+.button-1 {
+  background-color: #ffc200;
+  color: #012241;
+  width: 126px;
+  height: 40px;
+  border-radius: 30px;
+  margin-top: -12px;
+}
+
+ul,
+li {
+  color: #012241;
+}
+
+.list {
+  color: #012241;
+}
+
+h1 {
+  color: #012241;
+}
+
+.pageant {
+  justify-content: space-between;
+}
+
+.text-block {
+  position: absolute;
+  color: #ffffff;
+  background-color: #012241;
+  width: 288px;
+  height: 56px;
+  text-align: center;
+}
+
+.info {
+  height: 92px;
+  margin-top: 104px;
+}
+
+.all {
+  color: #012241;
+  font-size: 18px;
+}
+
+.right {
+  background-color: #012241;
+  color: #ffffff;
+  height: 61px;
+  font-size: 18px;
+}
+
+.contact-info-pics {
+  border: 1px solid #ffffff;
+  background-color: #f1f3f9;
+}
+
+.contact {
+  font-size: 15px;
+  color: #707070;
+}

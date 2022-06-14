@@ -1,0 +1,73 @@
+body {
+    background-color: #F1F3F9;
+}
+
+.hind-font {
+    font-family: "Hind", sans-serif;
+  }
+
+  .name {
+    padding-top: 40px;
+    padding-left: 60px;
+    margin-bottom: 40px;
+  }
+  
+  span {
+    color: #ffc200;
+  }
+  
+  .button-1 {
+    background-color: #ffc200;
+    color: #012241;
+    width: 126px;
+    height: 40px;
+    border-radius: 30px;
+    margin-top: -12px;
+  }
+  
+  ul,
+  li {
+    color: #012241;
+  }
+  
+  .list {
+    color: #012241;
+  }
+  
+  h1 {
+    color: #012241;
+  }
+  
+
+.info {
+    height: 92px;
+    margin-top: 104px;
+  }
+  
+  .all {
+    color: #012241;
+    font-size: 18px;
+  }
+
+  
+  .contact {
+    font-size: 15px;
+    color: #707070;
+}
+
+  .right {
+    background-color: #012241;
+    color: #ffffff;
+    height: 61px;
+   }
+
+   .contact-info-pics {
+    border: 1px solid #ffffff;
+    background-color: #f1f3f9;
+  }
+  
+  button:hover{
+    background: #ffffff;
+    color: #012241;
+    opacity: 70%;
+  }
