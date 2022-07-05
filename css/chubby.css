@@ -94,10 +94,6 @@ button:hover {
   margin-top: -130px;
 }
 
-.others {
-  color: #012241;
-}
-
 .locate {
   color: #012241;
 }
@@ -155,6 +151,10 @@ a {
   height: 92px;
 }
 
+.head1 {
+  font-size: 60px;
+}
+
 @media screen and (max-width: 768px) {
   header {
     height: 350px;
@@ -182,10 +182,6 @@ a {
     flex-direction: column-reverse;
   }
 
-  .foot-col {
-    flex-direction: column;
-  }
-
   .name {
     padding-top: 40px;
     padding-left: 20px;
@@ -207,14 +203,14 @@ a {
 
   .rectangle {
     width: 70px;
-    height: 85px;
+    height: 60px;
     border: 7px solid #ffc200;
     margin-left: -40px;
   }
 
   .about {
     color: #ffc200;
-    margin-top: -515px;
+    margin-top: -430px;
     margin-bottom: 330px;
     font-size: 14px;
   }
@@ -232,11 +228,21 @@ a {
   }
 
   .pageant {
-   align-items: center;
-   justify-content: center;
+    align-items: center;
+    justify-content: center;
   }
 
   .text-block {
     height: 40px;
   }
+
+  .right {
+    height: 50px;
+    font-size: 16px;
+  }
+
+  .info {
+    height: 460px;
+  }
+  
 }
